@@ -241,7 +241,7 @@ export const configSchema = {
           type: "string",
           enum: ["FONT_SIZE"]
         },
-        defaultValue: { type: "string" }
+        defaultValue: { type: "number" }
       }
     },
     fontFamily: {
@@ -269,7 +269,7 @@ export const configSchema = {
           type: "string",
           enum: ["CHECKBOX"]
         },
-        defaultValue: { type: "string" }
+        defaultValue: { type: "boolean" }
       }
     },
     textInput: {
@@ -311,7 +311,7 @@ export const configSchema = {
           type: "string",
           enum: ["OPACITY"]
         },
-        defaultValue: { type: "string" }
+        defaultValue: { type: "number" }
       }
     },
     lineWeight: {
@@ -325,7 +325,7 @@ export const configSchema = {
           type: "string",
           enum: ["LINE_WEIGHT"]
         },
-        defaultValue: { type: "string" }
+        defaultValue: { type: "number" }
       }
     },
     lineStyle: {
@@ -353,7 +353,7 @@ export const configSchema = {
           type: "string",
           enum: ["BORDER_RADIUS"]
         },
-        defaultValue: { type: "string" }
+        defaultValue: { type: "number" }
       }
     },
     interval: {
@@ -367,7 +367,7 @@ export const configSchema = {
           type: "string",
           enum: ["INTERVAL"]
         },
-        defaultValue: { type: "string" }
+        defaultValue: { type: "number" }
       }
     },
     fontColor: {
